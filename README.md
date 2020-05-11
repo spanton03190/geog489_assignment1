@@ -1,2 +1,8 @@
 # geog489_assignment1
 GEOG 489 Assignment 1 write up.
+
+This week’s lesson was a nice way to jump back into Python.  I just finished up GEOG 863 and I feel that with every program language-based course I take ,I learn just a little more about strategies for dealing with difficulties.  Things like: know when to walk away/take a break, don’t be ashamed to ask for help, and get (and keep) a head start whenever possible are familiar pieces of advice that return with each wall I find myself running into.  With this week’s assignment I learned to widen my perspective when dealing with an issue.  I was so stuck on why one line of code would not work that I didn’t step back to think that it was all connected (therefore a change here meant the same change needed to happen there).  
+
+When I got to step 4 of the assignment (expand the code so it can handle multiple input features) I ran into some difficulties deciding where the loop needed to be implemented; it’s times like those when you really gain appreciation for well commented code!  When I thought I had the right location something still was off, so I decided to use a print statement to fully understand what was being passed to the jobs list.  That revealed I was passing the entire tobeclipped list through for each parameter list rather than one at a time.  Once I got that squared away, I was good to go. Lesson learned:  print statements can save the day.
+
+For “over and above” attempts I created a script tool for the multiple input files version of the assignment, in-tool documentation for both scripts, and uploaded my write-up to GitHub.  
